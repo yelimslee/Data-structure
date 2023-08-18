@@ -1,4 +1,4 @@
-# Stack
+# Stack: first in last out (선입 후출) ex.말미잘
 # 삽입: push(=append)  삭제: pop(=pop)
 
 

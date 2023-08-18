@@ -15,6 +15,13 @@
 # 출력
 # 예제와 같이 요세푸스 순열을 출력한다.
 
+# 예제
+# 입력1
+# 7 3
+
+# 출력1
+# <3, 6, 2, 7, 5, 1, 4>
+
 class Solution:
     def josephus(self, N: int, K: int):
         persons = [x for x in range(1, N+1)]  # 1부터 N까지의 사람들을 리스트에 추가

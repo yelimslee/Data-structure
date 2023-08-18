@@ -59,6 +59,7 @@ def popBack(self):
     if len(self) == 0:  # 리스트가 비어있을 경우
         return None  # 아무 작업 없이 None 반환
     else:
+        # running technique
         prev, tail = None, self.head  # 이전 노드와 마지막 노드를 초기화
         while tail.next != None:  # 마지막 노드까지 반복
             prev = tail   # 이전 노드를 현재 노드로 변경

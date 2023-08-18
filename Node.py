@@ -74,3 +74,7 @@ def popBack(self):
     del tail  # 제거된 노드 메모리에서 해제
     self.size -=1  # 리스트 크기 감소
     return key  # 제거된 노드의 데이터 값을 반환
+
+
+# pushFront, popFront => O(1) 
+# pushBack, popBack => O(n)
